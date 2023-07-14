@@ -11,7 +11,6 @@ CapSolver official go library
 - MtCaptcha
 - Datadom
 - Cloudflare
-- Kasada
 - Akamai BMP
 
 
