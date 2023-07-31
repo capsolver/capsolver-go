@@ -21,6 +21,7 @@ type solution struct {
 	PassToken          string    `json:"pass_token,omitempty"`
 	RiskType           string    `json:"risk_Type,omitempty"`
 	Token              string    `json:"token,omitempty"`
+	Cookie             string    `json:"cookie,omitempty"`
 	Type               string    `json:"type,omitempty"`
 }
 
