@@ -17,7 +17,7 @@ func init() {
 func request(uri string, solverRequest *capSolverRequest) (*capSolverResponse, error) {
 
 	b, _ := json.Marshal(solverRequest)
-	resp, err := http.Post(fmt.Sprintf("%s%s", ApiHost, uri), "json/application", bytes.NewReader(b))
+	resp, err := http.Post(fmt.Sprintf("%s%s", ApiHost, uri), "application/json", bytes.NewReader(b))
 	if err != nil {
 		return nil, err
 	}
