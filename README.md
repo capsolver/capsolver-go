@@ -8,10 +8,7 @@ CapSolver official go library
 - Geetest
 - ReCaptchaV2
 - ReCaptchav3
-- MtCaptcha
-- Datadom
 - Cloudflare
-- Akamai BMP
 
 
 ## Installation
