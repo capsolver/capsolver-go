@@ -3,7 +3,6 @@ CapSolver official go library
 
 
 ## Supported CAPTCHA types:
-- HCaptcha
 - Geetest
 - ReCaptchaV2
 - ReCaptchav3
