@@ -17,7 +17,7 @@ type solution struct {
 	CaptchaId          string    `json:"captcha-id,omitempty"`
 	CaptchaOutput      string    `json:"captcha-output,omitempty"`
 	GenTime            string    `json:"gen_time,omitempty"`
-	LogNumber          string    `json:"log_number,omitempty"`
+	LotNumber          string    `json:"lot_number,omitempty"`
 	PassToken          string    `json:"pass_token,omitempty"`
 	RiskType           string    `json:"risk_Type,omitempty"`
 	Token              string    `json:"token,omitempty"`
