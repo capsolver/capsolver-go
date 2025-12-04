@@ -5,8 +5,7 @@ import (
 	"time"
 )
 
-func (c CapSolver) Solve(task map[string]any) (*capSolverResponse, error) {
-	//
+func (c *CapSolver) Solve(task map[string]any) (*CapSolverResponse, error) {
 	capRes, err := request(CREATE_TASK_URI, &capSolverRequest{Task: &task, ClientKey: c.getApiKey()})
 	if err != nil {
 		return nil, err
@@ -33,13 +32,12 @@ func (c CapSolver) Solve(task map[string]any) (*capSolverResponse, error) {
 	return capRes, err
 }
 
-func (c CapSolver) Balance() (*capSolverResponse, error) {
+func (c *CapSolver) Balance() (*CapSolverResponse, error) {
 	capRes, err := request(BALANCE_URI, &capSolverRequest{ClientKey: c.getApiKey()})
 	if err != nil {
 		return nil, err
 	}
 	return capRes, nil
-
 }
 
 func (c *CapSolver) getApiKey() string {

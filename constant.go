@@ -8,9 +8,10 @@ var (
 )
 
 const (
-	STATUS_READY    = "ready"
-	CREATE_TASK_URI = "/createTask"
-	GET_TASK_URI    = "/getTaskResult"
-	BALANCE_URI     = "/getBalance"
-	TASK_TIMEOUT    = 45
+	DEFAULT_API_HOST = "http://api.capsolver.com"
+	STATUS_READY     = "ready"
+	CREATE_TASK_URI  = "/createTask"
+	GET_TASK_URI     = "/getTaskResult"
+	BALANCE_URI      = "/getBalance"
+	TASK_TIMEOUT     = 60
 )
